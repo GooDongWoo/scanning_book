@@ -45,9 +45,6 @@ def split_two_page_image(input_folder, output_folder):
             
             print(f"Successfully split {file_name} into left and right pages")
             
-            # Add a small random delay between processing files (0.5 to 2 seconds)
-            time.sleep(random.uniform(0.5, 2))
-            
         except Exception as e:
             print(f"Error processing {file_name}: {e}")
 
